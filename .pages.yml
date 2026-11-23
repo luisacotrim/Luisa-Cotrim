@@ -1,0 +1,122 @@
+# Painel de edição do site (Pages CMS: https://app.pagescms.org)
+# Cada bloco abaixo aparece como um formulário em português.
+media:
+  input: imagens
+  output: /imagens
+  categories: [image]
+
+content:
+  - name: site
+    label: Conteúdo do site
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: contactos
+        label: Contactos e dados do negócio
+        type: object
+        fields:
+          - { name: nome, label: Nome, type: string, required: true }
+          - { name: profissao, label: Profissão, type: string, description: "Ex.: Massagista" }
+          - { name: telefone, label: Telefone, type: string, description: "Como aparece no site. Ex.: 912 345 678" }
+          - { name: whatsapp, label: Número do WhatsApp, type: string, description: "Só números, com 351 à frente. Ex.: 351912345678" }
+          - { name: email, label: Email, type: string, description: "Deixa vazio para não aparecer" }
+          - { name: morada, label: Morada, type: string, description: "Rua e número" }
+          - { name: complemento, label: Andar / sala, type: string, description: "Ex.: 1.º andar, sala 4" }
+          - { name: codigo_postal, label: Código postal, type: string }
+          - { name: localidade, label: Localidade, type: string }
+          - { name: nif, label: NIF, type: string, description: "Deixa vazio para não aparecer" }
+          - { name: instagram, label: Link do Instagram, type: string, description: "Deixe vazio se não tiver" }
+          - { name: facebook, label: Link do Facebook, type: string, description: "Deixe vazio se não tiver" }
+
+      - name: inicio
+        label: Topo da página
+        type: object
+        fields:
+          - { name: titulo_linha_1, label: Título (1.ª linha), type: string }
+          - { name: titulo_linha_2, label: Título (2.ª linha), type: string }
+          - { name: palavra_destaque, label: Palavra em destaque, type: string, description: "Aparece em itálico no fim do título" }
+          - { name: texto, label: Texto de apresentação, type: text }
+          - { name: foto, label: Fotografia do topo, type: image, description: "Vertical. Se ficar vazio, aparece a luz animada." }
+
+      - name: massagens
+        label: Massagens, terapias e preços
+        type: object
+        list: true
+        fields:
+          - { name: nome, label: Nome, type: string, required: true }
+          - { name: categoria, label: Categoria, type: string, description: "Corpo (massagens) ou Energia (radiestesia, tarot, Innerdance). As de Energia aparecem em tom lavanda." }
+          - { name: destaque, label: Etiqueta, type: string, description: "Opcional. Ex.: A mais pedida" }
+          - { name: descricao, label: Descrição, type: text }
+          - name: duracoes
+            label: Opções e preços
+            description: "Uma linha por opção (ex.: Corpo inteiro / ½ corpo). Preço vazio = sob consulta; 0 = oferta."
+            type: object
+            list: true
+            fields:
+              - { name: opcao, label: Opção, type: string, description: "Opcional. Ex.: Corpo inteiro, Só pernas, 1 pergunta ao tarot" }
+              - { name: minutos, label: Minutos (mínimo), type: number, description: "Opcional" }
+              - { name: preco, label: Preço (€), type: number }
+
+      - name: sobre
+        label: Sobre mim
+        type: object
+        fields:
+          - { name: foto, label: Fotografia, type: image, description: "Retrato vertical. Se ficar vazio, aparece a ilustração." }
+          - { name: texto_1, label: Texto (1.º parágrafo), type: text }
+          - { name: texto_2, label: Texto (2.º parágrafo), type: text }
+          - { name: anos_experiencia, label: Ano em que se formou em massagem, type: string, description: "Ex.: 2019" }
+          - name: formacao
+            label: Formação
+            type: object
+            list: true
+            fields:
+              - { name: curso, label: Curso, type: string }
+
+      - name: galeria
+        label: Galeria de fotos
+        type: object
+        list: true
+        description: "Fotos do espaço. Sem foto, aparece uma ilustração."
+        fields:
+          - { name: foto, label: Fotografia, type: image }
+          - { name: legenda, label: Legenda, type: string }
+
+      - name: frase
+        label: Frase em destaque
+        type: object
+        fields:
+          - { name: texto, label: Frase, type: text }
+
+      - name: vales
+        label: Vales-oferta
+        type: object
+        fields:
+          - { name: texto, label: Texto, type: text }
+          - name: opcoes
+            label: Valores
+            type: object
+            list: true
+            fields:
+              - { name: valor, label: Valor (€), type: number }
+              - { name: descricao, label: O que inclui, type: string }
+
+      - name: horario
+        label: Horário
+        type: object
+        description: "Escreve as horas (ex.: 10:00 – 19:00) ou Encerrado. Os dias encerrados não aparecem na marcação."
+        fields:
+          - { name: segunda, label: Segunda-feira, type: string }
+          - { name: terca, label: Terça-feira, type: string }
+          - { name: quarta, label: Quarta-feira, type: string }
+          - { name: quinta, label: Quinta-feira, type: string }
+          - { name: sexta, label: Sexta-feira, type: string }
+          - { name: sabado, label: Sábado, type: string }
+          - { name: domingo, label: Domingo, type: string }
+      - name: perguntas
+        label: Perguntas frequentes
+        type: object
+        list: true
+        fields:
+          - { name: pergunta, label: Pergunta, type: string }
+          - { name: resposta, label: Resposta, type: text }
