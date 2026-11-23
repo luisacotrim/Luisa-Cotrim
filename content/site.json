@@ -4,12 +4,11 @@
     "profissao": "Massagista e terapeuta holística",
     "telefone": "917 666 236",
     "whatsapp": "351917666236",
-    "email": "",
+    "email": "Luisacotrim2@gmail.com",
     "morada": "Rua Pedro de Santarém, n.º 65",
     "complemento": "1.º andar, sala 4",
     "codigo_postal": "2000-223",
     "localidade": "Santarém",
-    "nif": "",
     "instagram": "https://www.instagram.com/cotrimfilipa/",
     "facebook": "https://www.facebook.com/share/1MJjudn5d2/"
   },
@@ -24,7 +23,6 @@
     {
       "nome": "Massagem terapêutica",
       "categoria": "Corpo",
-      "destaque": "",
       "descricao": "Para aliviar tensões acumuladas, soltar contraturas e restabelecer a tua energia vital. Ideal para costas, pescoço e ombros cansados.",
       "duracoes": [
         {
@@ -42,11 +40,9 @@
     {
       "nome": "Massagem de relaxamento",
       "categoria": "Corpo",
-      "destaque": "",
       "descricao": "Movimentos lentos e envolventes para relaxar o corpo, acalmar a mente e dormir melhor.",
       "duracoes": [
         {
-          "opcao": "",
           "minutos": 45,
           "preco": 35
         }
@@ -55,11 +51,9 @@
     {
       "nome": "Massagem localizada",
       "categoria": "Corpo",
-      "destaque": "",
       "descricao": "Focada nas zonas de maior desconforto ou dor muscular específica.",
       "duracoes": [
         {
-          "opcao": "",
           "minutos": 35,
           "preco": 30
         }
@@ -68,7 +62,6 @@
     {
       "nome": "Drenagem linfática",
       "categoria": "Corpo",
-      "destaque": "",
       "descricao": "Técnica manual suave que ajuda a aliviar a sensação de pernas pesadas e a retenção de líquidos.",
       "duracoes": [
         {
@@ -78,7 +71,6 @@
         },
         {
           "opcao": "Parte de cima do corpo",
-          "minutos": null,
           "preco": 50
         }
       ]
@@ -86,11 +78,9 @@
     {
       "nome": "Radiestesia",
       "categoria": "Energia",
-      "destaque": "",
       "descricao": "Para alinhamento energético, harmonização dos chakras e libertação de bloqueios.",
       "duracoes": [
         {
-          "opcao": "",
           "minutos": 60,
           "preco": 40
         }
@@ -99,7 +89,6 @@
     {
       "nome": "Tarot, oráculos e Registos Akáshicos",
       "categoria": "Energia",
-      "destaque": "",
       "descricao": "Uma ferramenta de autoconhecimento, orientação e clareza para o teu momento de vida. Os Registos Akáshicos são um mimo meu, sem custo.",
       "duracoes": [
         {
@@ -119,7 +108,6 @@
         },
         {
           "opcao": "Registos Akáshicos",
-          "minutos": null,
           "preco": 0
         }
       ]
@@ -127,11 +115,9 @@
     {
       "nome": "Innerdance Kundalini",
       "categoria": "Energia",
-      "destaque": "",
       "descricao": "Uma jornada de conexão profunda, libertação emocional e expansão da consciência através do som e do movimento interior.",
       "duracoes": [
         {
-          "opcao": "",
           "minutos": 90,
           "preco": 50
         }
@@ -160,23 +146,18 @@
   },
   "galeria": [
     {
-      "foto": "",
       "legenda": "Pedras e eucalipto"
     },
     {
-      "foto": "",
       "legenda": "Óleos aquecidos"
     },
     {
-      "foto": "",
       "legenda": "Toalhas quentes"
     },
     {
-      "foto": "",
       "legenda": "Luz suave"
     },
     {
-      "foto": "",
       "legenda": "Natureza"
     }
   ],
