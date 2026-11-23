@@ -1,0 +1,242 @@
+{
+  "contactos": {
+    "nome": "Luísa Cotrim",
+    "profissao": "Massagista e terapeuta holística",
+    "telefone": "917 666 236",
+    "whatsapp": "351917666236",
+    "email": "",
+    "morada": "Rua Pedro de Santarém, n.º 65",
+    "complemento": "1.º andar, sala 4",
+    "codigo_postal": "2000-223",
+    "localidade": "Santarém",
+    "nif": "",
+    "instagram": "https://www.instagram.com/cotrimfilipa/",
+    "facebook": "https://www.facebook.com/share/1MJjudn5d2/"
+  },
+  "inicio": {
+    "titulo_linha_1": "Solta o que",
+    "titulo_linha_2": "o corpo",
+    "palavra_destaque": "guarda",
+    "texto": "Sou a Luísa Cotrim. Dedico o meu trabalho a momentos de bem-estar, equilíbrio e cura, com massagens e práticas holísticas para cuidar do teu corpo e da tua energia.",
+    "foto": "/imagens/luisa-massagem-costas.jpg"
+  },
+  "massagens": [
+    {
+      "nome": "Massagem terapêutica",
+      "categoria": "Corpo",
+      "destaque": "",
+      "descricao": "Para aliviar tensões acumuladas, soltar contraturas e restabelecer a tua energia vital. Ideal para costas, pescoço e ombros cansados.",
+      "duracoes": [
+        {
+          "opcao": "Corpo inteiro",
+          "minutos": 50,
+          "preco": 45
+        },
+        {
+          "opcao": "½ corpo",
+          "minutos": 30,
+          "preco": 30
+        }
+      ]
+    },
+    {
+      "nome": "Massagem de relaxamento",
+      "categoria": "Corpo",
+      "destaque": "",
+      "descricao": "Movimentos lentos e envolventes para relaxar o corpo, acalmar a mente e dormir melhor.",
+      "duracoes": [
+        {
+          "opcao": "",
+          "minutos": 45,
+          "preco": 35
+        }
+      ]
+    },
+    {
+      "nome": "Massagem localizada",
+      "categoria": "Corpo",
+      "destaque": "",
+      "descricao": "Focada nas zonas de maior desconforto ou dor muscular específica.",
+      "duracoes": [
+        {
+          "opcao": "",
+          "minutos": 35,
+          "preco": 30
+        }
+      ]
+    },
+    {
+      "nome": "Drenagem linfática",
+      "categoria": "Corpo",
+      "destaque": "",
+      "descricao": "Técnica manual suave que ajuda a aliviar a sensação de pernas pesadas e a retenção de líquidos.",
+      "duracoes": [
+        {
+          "opcao": "Só pernas",
+          "minutos": 60,
+          "preco": 50
+        },
+        {
+          "opcao": "Parte de cima do corpo",
+          "minutos": null,
+          "preco": 50
+        }
+      ]
+    },
+    {
+      "nome": "Radiestesia",
+      "categoria": "Energia",
+      "destaque": "",
+      "descricao": "Para alinhamento energético, harmonização dos chakras e libertação de bloqueios.",
+      "duracoes": [
+        {
+          "opcao": "",
+          "minutos": 60,
+          "preco": 40
+        }
+      ]
+    },
+    {
+      "nome": "Tarot, oráculos e Registos Akáshicos",
+      "categoria": "Energia",
+      "destaque": "",
+      "descricao": "Uma ferramenta de autoconhecimento, orientação e clareza para o teu momento de vida. Os Registos Akáshicos são um mimo meu, sem custo.",
+      "duracoes": [
+        {
+          "opcao": "Leitura de tarot",
+          "minutos": 60,
+          "preco": 30
+        },
+        {
+          "opcao": "1 pergunta ao tarot",
+          "minutos": 20,
+          "preco": 5
+        },
+        {
+          "opcao": "1 pergunta ao oráculo",
+          "minutos": 20,
+          "preco": 5
+        },
+        {
+          "opcao": "Registos Akáshicos",
+          "minutos": null,
+          "preco": 0
+        }
+      ]
+    },
+    {
+      "nome": "Innerdance Kundalini",
+      "categoria": "Energia",
+      "destaque": "",
+      "descricao": "Uma jornada de conexão profunda, libertação emocional e expansão da consciência através do som e do movimento interior.",
+      "duracoes": [
+        {
+          "opcao": "",
+          "minutos": 90,
+          "preco": 50
+        }
+      ]
+    }
+  ],
+  "sobre": {
+    "foto": "/imagens/luisa-massagem-pernas.jpg",
+    "texto_1": "Formei-me em massagem e terapias de spa em 2019 e, desde então, fui juntando práticas holísticas ao meu trabalho. Hoje cuido de ti por inteiro: corpo, emoções e energia.",
+    "texto_2": "Antes de começar, conversamos sobre o que estás a sentir. Depois escolhemos em conjunto a sessão que melhor se adapta ao que precisas agora.",
+    "anos_experiencia": "2019",
+    "formacao": [
+      {
+        "curso": "Massagem e Terapias de Spa · Talento Formação, 2019 (90 horas)"
+      },
+      {
+        "curso": "Introdução ao Tarot · Ametista, 2024"
+      },
+      {
+        "curso": "Radiestesia · Ametista, 2025"
+      },
+      {
+        "curso": "Innerdance Kundalini · Sabrina Gonçalves, 2026 (40 horas)"
+      }
+    ]
+  },
+  "galeria": [
+    {
+      "foto": "",
+      "legenda": "Pedras e eucalipto"
+    },
+    {
+      "foto": "",
+      "legenda": "Óleos aquecidos"
+    },
+    {
+      "foto": "",
+      "legenda": "Toalhas quentes"
+    },
+    {
+      "foto": "",
+      "legenda": "Luz suave"
+    },
+    {
+      "foto": "",
+      "legenda": "Natureza"
+    }
+  ],
+  "frase": {
+    "texto": "Se sentires o apelo de tirar um tempo só para ti, será um enorme prazer receber-te e acompanhar-te neste processo."
+  },
+  "vales": {
+    "texto": "Um presente que ninguém devolve. Escolhe o valor e eu preparo o vale com o nome de quem o recebe, em papel ou por mensagem. Válido 6 meses.",
+    "opcoes": [
+      {
+        "valor": 35,
+        "descricao": "Massagem de relaxamento"
+      },
+      {
+        "valor": 45,
+        "descricao": "Massagem terapêutica corpo inteiro"
+      },
+      {
+        "valor": 50,
+        "descricao": "Innerdance Kundalini"
+      }
+    ]
+  },
+  "horario": {
+    "segunda": "Encerrado",
+    "terca": "10:00 – 19:00",
+    "quarta": "10:00 – 19:00",
+    "quinta": "10:00 – 19:00",
+    "sexta": "10:00 – 19:00",
+    "sabado": "Encerrado",
+    "domingo": "Encerrado"
+  },
+  "perguntas": [
+    {
+      "pergunta": "Que sessão devo escolher?",
+      "resposta": "Diz-me o que estás a sentir ou a precisar neste momento e escolhemos em conjunto a sessão que melhor se adapta a ti."
+    },
+    {
+      "pergunta": "Quando pago?",
+      "resposta": "Só no fim, depois da sessão feita."
+    },
+    {
+      "pergunta": "E se precisar de desmarcar?",
+      "resposta": "Avisa-me assim que souberes. Desmarcar não tem qualquer custo."
+    },
+    {
+      "pergunta": "Quanto tempo dura uma sessão?",
+      "resposta": "Depende da terapia. Os tempos são mínimos: a sessão pode durar mais, consoante o que estivermos a trabalhar."
+    },
+    {
+      "pergunta": "Nunca experimentei radiestesia nem Innerdance. É para mim?",
+      "resposta": "Sim. Não precisas de experiência nenhuma. Explico-te tudo antes de começar e acompanho-te ao longo da sessão."
+    },
+    {
+      "pergunta": "Onde fica o espaço?",
+      "resposta": "Na Rua Pedro de Santarém, n.º 65, 1.º andar, sala 4, em Santarém. Usa o botão \"Como chegar\" para abrir o caminho no Google Maps."
+    },
+    {
+      "pergunta": "Tenho de levar alguma coisa?",
+      "resposta": "Não. Vem só com roupa confortável, eu trato do resto."
+    }
+  ]
+}
